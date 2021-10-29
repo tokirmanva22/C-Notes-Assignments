@@ -1,4 +1,4 @@
-//Program of add sub div mul
+//Program of sumation substraction divison multiplication
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -65,5 +65,5 @@ int main()
 		case 4: div();
 		        break;
 	}
-	return 0;
+return 0;
 }
