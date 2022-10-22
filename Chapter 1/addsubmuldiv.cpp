@@ -4,38 +4,38 @@ using namespace std;
 
 void add()
 {
-	int a,b,j;
+	int a,b;
 	cout<<"Enter two numbers"<<endl;
 	cin>>a>>b;
-	j=a+b;
-	cout<<"Result is :"<<j<<endl;
+	
+	cout<<"Result is :"<<(a+b)<<endl;
 }
 
 void sub()
 {
-	int a,b,j;
+	int a,b;
 	cout<<"Enter two numbers"<<endl;
 	cin>>a>>b;
-	j=a-b;
-	cout<<"Result is :"<<j<<endl;
+	
+	cout<<"Result is :"<<a-b<<endl;
 }
 
 void multiply()
 {
-	int a,b,j;
+	int a,b;
 	cout<<"Enter two numbers"<<endl;
 	cin>>a>>b;
-	j=a*b;
-	cout<<"Result is :"<<j<<endl;
+	
+	cout<<"Result is :"<<a*b<<endl;
 }
 
 void div()
 {
-	int a,b,j;
+	int a,b;
 	cout<<"Enter two numbers"<<endl;
 	cin>>a>>b;
-	j=a/b;
-	cout<<"Result is :"<<j<<endl;
+	
+	cout<<"Result is :"<<a/b<<endl;
 }
 
 int main()
